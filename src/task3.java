@@ -6,7 +6,7 @@ public class task3 {
         int first = num[0];
         num[0]=last;
         num[num.length - 1]=first;
-        System.out.println(num[0]+num[num.length-3]);
+        System.out.println(num[0]+num[num.length/2]);
 
     }
 }
