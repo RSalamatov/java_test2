@@ -21,7 +21,7 @@ public class task4 {
         if (srardva > 3) {
             System.out.println("Программа выполнена корректно");
         } else {
-            System.out.println("Полученное число меньше 3");
+            System.out.println("Полученное значение меньше 3");
         }
     }
 }
