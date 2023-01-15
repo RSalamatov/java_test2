@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class task6 {
     public static void main(String[] args) {
         int metr = 1;
-        int milli = 2;
+        int mili = 2;
         int yard = 3;
         int fut = 4;
 
@@ -18,33 +18,33 @@ public class task6 {
                 System.out.println("Введите число: ");
                 double num3 = qwe.nextInt();
                 System.out.println("Метры:" + num3);
-                System.out.println("МИЛИ:" + num3 * 0.0006);
-                System.out.println("ярды:" + num3 * 1.094);
-                System.out.println("футы:" + num3 * 3.281);
+                System.out.println("Мили:" + num3 * 0.0006);
+                System.out.println("Ярды:" + num3 * 1.094);
+                System.out.println("Футы:" + num3 * 3.281);
             } else {
-                if (num2 == milli) {
+                if (num2 == mili) {
                     System.out.println("Введите число: ");
                     double num3 = qwe.nextInt();
                     System.out.println("Метры:" + num3 * 1609.34);
-                    System.out.println("МИЛИ:" + num3);
-                    System.out.println("ярды:" + num3 * 1760);
-                    System.out.println("футы:" + num3 * 5280);
+                    System.out.println("Мили:" + num3);
+                    System.out.println("Ярды:" + num3 * 1760);
+                    System.out.println("Футы:" + num3 * 5280);
                 } else {
                     if (num2 == yard) {
                         System.out.println("Введите число: ");
                         double num3 = qwe.nextInt();
                         System.out.println("Метры:" + num3 * 0.9144);
-                        System.out.println("МИЛИ:" + num3 * 0.0006);
-                        System.out.println("ярды:" + num3);
-                        System.out.println("футы:" + num3 * 3);
+                        System.out.println("Мили:" + num3 * 0.0006);
+                        System.out.println("Ярды:" + num3);
+                        System.out.println("Футы:" + num3 * 3);
                     } else {
                         if (num2 == fut) {
                             System.out.println("Введите число: ");
                             double num3 = qwe.nextInt();
                             System.out.println("Метры:" + num3 * 0.3048);
-                            System.out.println("МИЛИ:" + num3 * 0.000189);
-                            System.out.println("ярды:" + num3 * 0.333);
-                            System.out.println("футы:" + num3);
+                            System.out.println("Мили:" + num3 * 0.000189);
+                            System.out.println("Ярды:" + num3 * 0.333);
+                            System.out.println("Футы:" + num3);
                         }
 
                     }
