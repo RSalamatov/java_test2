@@ -25,7 +25,7 @@ public class task7 {
             }
         }
         for (int i = 0; i < arrey.length; i++) {
-            System.out.println(arrey[i]);
+            System.out.print(arrey[i] + " ");
         }
     }
 
