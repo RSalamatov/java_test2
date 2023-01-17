@@ -8,7 +8,7 @@ public class task8 {
         int sum = 0;
         for (int i = 1; i <= n; i = i + 2) {
             sum = sum + i;
-                    }
+        }
         if (n < 0) {
             System.out.println("Вы ввели отрицательное число");
         } else {
