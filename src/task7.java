@@ -16,12 +16,8 @@ public class task7 {
             System.out.println("Введите элемент массива: ");
             int elements = sc.nextInt();
             arrey[i] = elements;
-            if (elements == x) {
-                System.out.println("Данное значение имеется в константах x");
-            } else if (elements == y) {
-                System.out.println("Данное значение имеется в константах y");
-            } else if (elements == z) {
-                System.out.println("Данное значение имеется в константах z");
+            if (elements == x || elements == y || elements == z) {
+                System.out.println("Данное значение имеется в константах");
             }
         }
         for (int i = 0; i < arrey.length; i++) {
