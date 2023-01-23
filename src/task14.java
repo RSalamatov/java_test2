@@ -22,8 +22,8 @@ public class task14 {
         System.out.println("Минимум: " + num2);
         int modul1 = Math.abs(num1);
         int modul2 = Math.abs(num2);
-        int resultmodul = Math.max(modul1, modul2);
-        System.out.println("Большeе значение из максимального и минимального значения по модуюлю: " + resultmodul);
+        int ResultModul = Math.max(modul1, modul2);
+        System.out.println("Большeе значение из максимального и минимального значения по модуюлю: " + ResultModul);
     }
 
 
