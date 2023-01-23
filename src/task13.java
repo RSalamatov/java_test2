@@ -1,12 +1,14 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class task13 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите строку: ");
+        String stroka = sc.nextLine();
 
-
-        String stroka = "I love java 8 Я люблю java 14 core1";
         List<String> spisokSlov = new ArrayList<>();
         spisokSlov = Arrays.asList(stroka.split(" "));
         List<String> spisokAngliiskihSlov = new ArrayList<>();
